@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main id="main-holder">
+        <a href="/logout" id="logout">Logout</a>
+
+        <h1 id="login-header">Welcome here!</h1>
+
+        <div id="login-error-msg-holder">
+            <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+
+        <div id="login-form">
+            <a href="/login" id="login-form-submit">Login</a>
+        </div>
+    </main>
+</body>
+
+</html>
